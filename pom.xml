@@ -15,6 +15,10 @@
 			<id>matsim</id>
 			<url>https://dl.bintray.com/matsim/matsim</url>
 		</repository>
+		<repository>
+			<id>matsim-eth</id>
+			<url>https://dl.bintray.com/matsim-eth/matsim</url>
+		</repository>
 	</repositories>
 
 	<dependencies>
@@ -22,8 +26,27 @@
 		<dependency>
 			<groupId>org.matsim</groupId>
 			<artifactId>matsim</artifactId>
-			<version>0.9.0</version>
+			<version>0.10.0-eth</version>
+
 		</dependency>
+        <dependency>
+            <groupId>org.matsim.contrib</groupId>
+            <artifactId>av</artifactId>
+            <version>0.10.0-eth</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.matsim.contrib</groupId>
+            <artifactId>dvrp</artifactId>
+            <version>0.10.0-eth</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.matsim.contrib</groupId>
+            <artifactId>drt</artifactId>
+            <version>0.10.0-eth</version>
+        </dependency>
+
 
 		<!-- Include the JUnit testing library -->
 		<dependency>

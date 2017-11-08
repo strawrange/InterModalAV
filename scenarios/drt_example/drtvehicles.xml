@@ -1,0 +1,8 @@
+<!DOCTYPE vehicles SYSTEM "http://matsim.org/files/dtd/dvrp_vehicles_v1.dtd">
+
+<vehicles>
+	<vehicle id="taxibus0" start_link="9904662_1" t_0="1.0" t_1="86399.0" capacity="8"/>
+	<vehicle id="taxibus1" start_link="42145946_0L2" t_0="1.0" t_1="86399.0" capacity="8"/>
+	<vehicle id="taxibus2" start_link="238395452_0L1" t_0="1.0" t_1="86399.0" capacity="8"/>
+	<vehicle id="taxibus3" start_link="9904393_1_r" t_0="1.0" t_1="86399.0" capacity="8" />
+</vehicles>
