@@ -23,10 +23,10 @@
 		<param name="maxTravelTimeBeta" value="300.0" />
 
 		<!-- Max wait time for the bus to come (optimisation constraint). -->
-		<param name="maxWaitTime" value="900.0" />
+		<param name="maxWaitTime" value="90000" />
 
 		<!-- Maximum walk distance to next stop location in stationbased system. -->
-		<param name="maxWalkDistance" value="500.0" />
+		<param name="maxWalkDistance" value="500000" />
 
 		<!-- Number of threads used for parallel evaluation of request insertion into existing schedules. If unset, the number of threads is equal to the number of logical cores available to JVM. -->
 		<param name="numberOfThreads" value="7" />
@@ -64,7 +64,7 @@
 	</module>
 	
 	<module name="controler">
-		<param name="outputDirectory" value="output/&RUNID;" />
+		<param name="outputDirectory" value="output/av_less_transit" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="0" />
 		<param name="eventsFileFormat" value="xml" />
@@ -93,8 +93,7 @@
 
 
 	<module name="planCalcScore">
-
-
+	<param name="writeExperiencedPlans" value="true"></param>
 		<parameterset type="scoringParameters" >
 			<param name="earlyDeparture" value="-12.0" />
 			<param name="lateArrival" value="-24.0" />

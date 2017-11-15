@@ -40,7 +40,7 @@ public class RunDrtExample {
 
 	public static void main(String[] args) {
 		
-		Config config = ConfigUtils.loadConfig("/home/biyu/IdeaProjects/interview/scenarios/drt_example/drtconfig.xml", new DrtConfigGroup(), new DvrpConfigGroup(), new OTFVisConfigGroup());
+		Config config = ConfigUtils.loadConfig("C:/Users/strawrange/git/InterModalAV/scenarios/drt_example/drtconfig.xml", new DrtConfigGroup(), new DvrpConfigGroup(), new OTFVisConfigGroup());
 		run(config,false);
 
 	}
